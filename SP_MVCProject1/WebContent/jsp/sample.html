@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="js/main.css"> -->
+
+     <!-- Babylon.js -->
+     <!-- <script src="https://code.jquery.com/pep/0.4.2/pep.min.js"></script>
+     <script src="https://playground.babylonjs.com/js/libs/split.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.2/dat.gui.min.js"></script>
+     <script src="https://preview.babylonjs.com/gltf_validator.js"></script>
+     <script src="https://preview.babylonjs.com/earcut.min.js"></script>
+     <script src="https://preview.babylonjs.com/babylon.js"></script>aa
+     <script src="https://preview.babylonjs.com/inspector/babylon.inspector.bundle.js"></script>
+     <script src="https://preview.babylonjs.com/materialsLibrary/babylonjs.materials.min.js"></script>
+     <script src="https://preview.babylonjs.com/proceduralTexturesLibrary/babylonjs.proceduralTextures.min.js"></script>
+     <script src="https://preview.babylonjs.com/postProcessesLibrary/babylonjs.postProcess.min.js"></script>
+     <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.js"></script>
+     <script src="https://preview.babylonjs.com/serializers/babylonjs.serializers.min.js"></script>
+     <script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script> -->
+
+
+     <script src="js/libs/pep.min.js"></script>   
+     <script src="js/libs/split.js"></script>   
+     <script src="js/libs/dat.gui.min.js"></script>   
+     <script src="js/libs/gltf_validator.js"></script>   
+     <script src="js/libs/earcut.min.js"></script>   
+     <script src="js/libs/babylon.js"></script>   
+     <script src="js/libs/babylon.inspector.bundle.js"></script>   
+     <script src="js/libs/babylonjs.materials.min.js"></script>   
+     <script src="js/libs/babylonjs.proceduralTextures.min.js"></script>   
+     <script src="js/libs/babylonjs.postProcess.min.js"></script>   
+     <script src="js/libs/babylonjs.loaders.js"></script>   
+     <script src="js/libs/babylonjs.serializers.min.js"></script>   
+     <script src="js/libs/babylon.gui.min.js"></script>   
+
+
+
+     <script type="text/javascript" src="js/GameManger.js"></script>
+     <script type="text/javascript" src="js/MainSceneManager.js"></script>
+     <script type="text/javascript" src="js/MainSceneGUI.js"></script>
+
+     <script type="text/javascript" src="js/LoadManager.js"></script>
+     <script type="text/javascript" src="js/UiManager.js"></script>
+     <script type="text/javascript" src="js/MainSceneHelper.js"></script>
+
+    <style>
+
+             html, body {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+        #renderCanvas {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+        <canvas id="renderCanvas"></canvas>
+
+    <script>
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        if (BABYLON.Engine.isSupported()) {
+             GManger=new GameManger('renderCanvas');
+        }
+    });
+            
+    
+        </script>
+</body>
+</html>
